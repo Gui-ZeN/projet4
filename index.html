@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Zen Flautas</title>
+</head>
+<body>
+    <header id="header">
+        <div class="cabecalho">
+            <div class="logo">
+                <img src="./assets/flauta.png" alt="Imagem de uma Flauta" id="header-img">
+                <h1 class="titulo-logo">Flautas Zen</h1>
+            </div>
+            <div class="menu">
+                <nav id="nav-bar">
+                    <ul class="lista">
+                        <li><a href="#features" class="nav-link">Caracteristicas</a></li>
+                        <li><a href="#video" class="nav-link">Como Funciona</a></li>
+                        <li><a href="#precos" class="nav-link">Produtos</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main> 
+            <section class="formulario">
+                <form action="https://www.freecodecamp.com/email-submit" id="form">
+                    <h2 class="titulo-corpo">Descubra a melodia perfeita, onde a tradição encontra a excelência em cada nota.</h2>
+                    <input type="email" name="email" id="email" placeholder="Digite seu Email" required>
+                    <input type="submit" value="INSCREVER-SE" id="submit" class="botao-enviar">
+                </form>
+            </section>
+            <div class="container">
+                <section class="features" id="features">
+                    <div class="grid">
+                        <div class="grid-icone"><img src="./assets/estrela.png" alt="" class="img-beneficios"></div>
+                        <div class="grid-texto">
+                            <h2>Materiais De Qualidade</h2>
+                            <p>Produtos e Materiais da Melhor Qualidade, garantindo a longevidade da Flauta</p>
+                        </div>
+                    </div>
+                    <div class="grid">
+                        <div class="grid-icone"><img src="./assets/caminhao-de-entrega.png" alt="" class="img-beneficios"></div>
+                        <div class="grid-texto">
+                            <h2>Entrega Rápida</h2>
+                            <p>Nos certificamos que será enviado logo após a solicitação</p>
+                        </div>
+                    </div>
+                    <div class="grid">
+                        <div class="grid-icone"><img src="./assets/silhueta-de-multiplos-usuarios.png" class="img-beneficios"></div>
+                        <div class="grid-texto">
+                            <h2>Suporte 24h</h2>
+                            <p>Estamos sempre disponiveis para resolver todas as questões 24h por dia</p>
+                        </div>
+                    </div>
+                </section>
+                <section class="video">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/XMuPsPFRueM?si=xEFmAbH_HPM5rubc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen id="video"></iframe>
+                </section>
+                <section class="precos" id="precos">
+                    <div class="basico categoria">
+                        <h2>Alpaca</h2>
+                        <ul>
+                            <li>Ideal Para Começar</li>
+                            <li>Fácil de Tocar</li>
+                            <li>Durável</li>
+                            <li>Custo-Beneficio</li>
+                        </ul>
+                        <button>Selecionar</button>
+                    </div>
+                    <div class="intermediario categoria">
+                        <h2>Prata</h2>
+                        <ul>
+                            <li>Som mais rico e expressivo</li>
+                            <li>melhora na técnica</li>
+                            <li>opções de personalização</li>
+                            <li>transição para o próximo nível</li>
+                        </ul>
+                        <button>Selecionar</button>
+                    </div>
+                    <div class="ultra categoria">
+                        <h2>Ouro</h2>
+                        <ul>
+                            <li>Performance de concerto</li>
+                            <li>qualidade sonora</li>
+                            <li>resposta dinâmica</li>
+                            <li>feito à mão</li>
+                        </ul>
+                        <button>Selecionar</button>
+                    </div>
+                </section>      
+            </div>   
+            <footer><p>Projeto Desenvolvido por <a href="">Guilherme Zen</a> para o curso do FreeCodeCamp</p></footer>
+</body>
+</html>
